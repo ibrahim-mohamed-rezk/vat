@@ -428,6 +428,7 @@ main {
   border-radius: clamp(10px, 3.90625vw, 75px);
   padding: clamp(5px, 0.520833vw, 10px) clamp(10px, 2.6041667vw, 50px);
   text-align: center;
+  margin: 0 auto;
 }
 
 .vip-service {
@@ -944,6 +945,24 @@ main {
   }
 
   .serivce-item-title {
+    top: -35px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .serivce-item-title {
+    top: -30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .serivce-item-title {
+    top: -25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .serivce-item-title {
     top: -20px;
   }
 }
@@ -968,6 +987,10 @@ main {
 
   .service2-img img {
     margin-top: 0px;
+  }
+
+  .serivce-item-title {
+    top: -15px;
   }
 }
 
